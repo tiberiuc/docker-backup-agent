@@ -29,7 +29,7 @@ func main() {
 		panic("Port must be a number")
 	}
 
-	portPtr := flag.Int("port", intPort, "port to start server on, default 9191. Also can be specified by BACKUP_SERVER_PORT environment variable")
+	portPtr := flag.Int("port", intPort, "port to start server on, default 9191. Also can be specified by BACKUP_AGENT_PORT environment variable")
 	backupCmdPtr := flag.String("backup", envBackupCommand, "backup command to run. Also can be specified by BACKUP_AGENT_BACKUP_SCRIPT environment variable")
 	restoreCmdPtr := flag.String("restore", envRestoreCommand, "restore command to run. Also can be specified by BACKUP_AGENT_RESTORE_SCRIPT environment variable")
 
