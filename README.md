@@ -55,6 +55,4 @@ curl -vX POST  http://localhost:9191/restore --data-binary @backup.tgz
 
 you can check this projects for real life usage
 
-bitcoind
-ethereum
-mongodb
+SOON
