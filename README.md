@@ -55,6 +55,6 @@ curl -vX POST  http://localhost:9191/restore --data-binary @backup.tgz
 
 you can check this projects for real life usage
 
-* [tiberiuc/docker_bitcoind](https://github.com/tiberiuc/docker_bitcoind)
-* [tiberiuc/docker_ethereum](https://github.com/tiberiuc/docker_ethereum)
-* [tiberiuc/docker_mongodb](https://github.com/tiberiuc/docker_mongodb)
+* [tiberiuc/docker-bitcoind](https://github.com/tiberiuc/docker-bitcoind)
+* [tiberiuc/docker-ethereum](https://github.com/tiberiuc/docker-ethereum)
+* [tiberiuc/docker-mongodb](https://github.com/tiberiuc/docker-mongodb)
