@@ -2,7 +2,7 @@
 
 set -exuo pipefail
 
-IMAGE=tiberiuc/backup_agent
+IMAGE=tiberiuc/backup-agent
 TAG=${1:-latest}
 
 docker build -t ${IMAGE}:${TAG} .
